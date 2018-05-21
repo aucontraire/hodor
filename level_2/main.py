@@ -32,8 +32,7 @@ def cheat_vote(times=1):
 
     for i in range(times):
         r = session.post(url, payload, cookies=cookies)
-        print(r.status_code)
-        print(r.request.headers)
+
 
 if __name__ == '__main__':
     times = 1024
